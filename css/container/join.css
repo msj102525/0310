@@ -1,0 +1,137 @@
+@import url(common/reset.css);
+.register {
+    
+}
+.register .inner-register {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register .inner-register .sign-up {
+    flex: 0 1 400px;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px #000;
+}
+.register .inner-register .sign-up .sign-up-con {
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.register .inner-register .sign-up .sign-up-con h1.title {
+    border: 1px solid;    
+    box-sizing: border-box;
+    line-height: 30px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+    background-color: #fcc;
+    color: #fff;
+    box-shadow: 1px 1px 5px #000;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form {
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    padding: 5px;
+    box-sizing: border-box;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul {
+    /* border: 1px solid; */
+    box-shadow: 1px 2px 5px #000;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li {
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    line-height: 30px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li label {
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: block;
+    background-color: #fcc;
+    color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li1 {
+    box-shadow: 0 1px 2px #ccc;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li1 input {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    color: #fcc;
+    border: 0;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li1 input:focus {
+    background-color: rgb(255, 233, 233);
+    outline: 0;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2{
+    /* background-color: #ff0; */
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid; */
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.one{ 
+    padding: 20px 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px #000;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.one input { 
+    width: 14px;
+    height: 14px;
+    background-color: #f00;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.one span {
+    /* background-color: rgb(201, 201, 245); */
+    line-height: 14px;
+    font-size: 12px;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.one span::after {
+    content: 'Terms & Conditions';
+    line-height: 14px;
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(255, 169, 169);
+    font-weight: bold;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.two{
+    justify-content: center;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.two .sub1{
+    display: block;
+    flex: 0 1 100px;
+    border: 1px solid;
+    background-color: rgb(255, 169, 169);
+    color: #fff;
+    text-align: center;
+    border-radius: 5%;
+    font-size: 14px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in-out;
+}
+.register .inner-register .sign-up .sign-up-con .sign-up-form ul li.li2.two .sub1:hover {
+    background-color: #f00;
+}
+.on {
+    color: #fff !important;
+    background-color: rgb(255, 82, 82);
+}
