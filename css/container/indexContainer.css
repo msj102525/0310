@@ -50,3 +50,45 @@
 .container .inner-container .index .sections .section.sec1 .sec-con .gallery ul li:nth-child(5){
     background: url(../../img/sec0.jpg) no-repeat 50%/cover;
 }
+
+.container .inner-container .index .sections .section.sec2 {
+    display: flex;
+    justify-content: center;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con {
+    flex: 0 1 1000px;
+    height: auto;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con ul li {
+    flex: 0 1 32%;
+    padding: 0.25%;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con ul li img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media only screen and (max-width:768px){
+    .container .inner-container .index .sections .section.sec2 .sec-con {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .container .inner-container .index .sections .section.sec2 .sec-con ul li {
+        flex: 0 1 49%;
+        padding: 0.25%;
+    }
+}
+@media only screen and (max-width:640px){
+    .container .inner-container .index .sections .section.sec2 .sec-con ul li {
+        flex: 0 1 100%;
+        padding: 10px 0;
+    }
+}

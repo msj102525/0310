@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>평가예시</title>
+    <link rel="stylesheet" href="css/join.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="inner-header">
+                <div class="nav">
+                    <h1 class="logo">
+                        <a href="#"><img src="img/logo.jpg" alt="logo"></a>
+                    </h1>
+                    <div class="gnb">
+                        <ul>
+                            <li>
+                                <a href="#">MENU</a>
+                                <ul class="sub">
+                                    <li><a href="#">submenu</a></li>
+                                    <li><a href="#">submenu</a></li>
+                                    <li><a href="#">submenu</a></li>
+                                    <li><a href="#">submenu</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">MENU</a></li>
+                            <li><a href="#">MENU</a></li>
+                            <li><a href="join.html">JOIN</a></li>
+                            <li><a href="index.html">HOME</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <div class="join">
+                    <div class="inner-join">
+                        <div class="join-con">
+                            <h1 class="title">Sign Up</h1>
+                            <div class="join-form">
+                                <form action="joinOk.do" method="get" id="joinForm">
+                                    <ul>
+                                        <li class="li1">
+                                            <label for="userName">이름</label>
+                                            <div class="rightInput">
+                                                <input type="text" name="userName" id="userName">
+                                            </div>
+                                        </li>
+                                        <li class="li1">
+                                            <label for="userEmail">이메일</label>
+                                            <div class="rightInput">
+                                                <input type="email" name="userEmail" id="userEmail">
+                                            </div>
+                                        </li>
+                                        <li class="li2">
+                                            <label for="userPhone">전화번호</label>
+                                            <div class="rightInput">
+                                                <select name="userphone" class="userPhone" id="userPhone">
+                                                    <option value="null" selected>::전화번호</option>
+                                                    <option value="010">010</option>
+                                                    <option value="011">011</option>
+                                                    <option value="012">012</option>
+                                                </select>
+                                                <input type="text" name="userPhone" id="class" size="4" maxlength="4">
+                                                <input type="text" name="userPhone" id="class" size="4" maxlength="4">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label for="memberChecked">본인인증</label>
+                                            <div class="rightInput">
+                                                <span>남자</span><input type="radio" name="memberChecked" class="memberChecked" value="남자" checked>
+                                                <span>여자</span><input type="radio" name="memberChecked" class="memberChecked" value="여자">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <input type="reset" value="취소">
+                                            <input type="submit" value="회원가입">
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="fcon">
+                    FOOTER
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
